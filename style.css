@@ -1,4 +1,4 @@
-/* ===== Reset básico ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,6 @@ img {
   object-fit: cover;
 }
 
-/* ===== Seção 1 - Hero ===== */
 .hero {
   background-color: #121212;
 }
@@ -83,7 +82,6 @@ img {
   border-radius: 4px;
 }
 
-/* ===== Seção 2 - Galeria ===== */
 .gallery {
   background-color: #fff3ef;
   width: 100%;
@@ -107,7 +105,6 @@ img {
   filter: brightness(1.05);
 }
 
-/* ===== Breakpoint intermediário (tablet) ===== */
 @media (max-width: 1024px) {
   .hero__container {
     grid-template-columns: repeat(3, 1fr);
@@ -126,7 +123,6 @@ img {
   }
 }
 
-/* ===== Breakpoint mobile - empilhado ===== */
 @media (max-width: 600px) {
   .hero__container {
     grid-template-columns: 1fr;
